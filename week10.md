@@ -55,3 +55,30 @@ void main() {
 }
 ```
 <hr>
+
+```
+for문 이용해서 1-100까지 더하기
+```
+
+```
+#include <stdio.h>
+
+int main(void)
+{
+    int sum = 0;
+    int count = 0;
+    
+    for (count=1; count<=100; count++)
+    {
+        sum = sum + count;
+    }
+    
+    printf("%d", sum);
+    
+    return 0;
+}
+```
+ㄴ 답 : 5050
+
+<hr>
+
