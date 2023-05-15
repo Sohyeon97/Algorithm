@@ -38,3 +38,35 @@ int main(void)
 
 ![image](https://github.com/Sohyeon97/Algorithm/assets/128660870/9cb61027-c184-4de3-ae67-bcea37983269)
 <Br> ㄴ 결과
+
+ <hr>
+  
+  ```
+  #include <stdio.h>
+
+int main(void)
+{
+    int i;
+    int j;
+    
+    i=0;
+    
+    
+    for(i=1; i<=10;i++)
+    {
+        j=1;
+         while(j<=30)
+        {
+            printf("*");
+            j++;
+        }
+    printf("\n");
+        
+    }
+    return 0;
+}
+```
+  
+  ![image](https://github.com/Sohyeon97/Algorithm/assets/128660870/53a919af-e169-4804-b29b-195a57f806be)
+
+ <br> ㄴ 결과 
